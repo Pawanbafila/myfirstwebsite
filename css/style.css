@@ -260,7 +260,7 @@ transition: all 1s ease-in 0s;
 .sir {
    
     width: 1170px;
-    height: 1200px;
+    height: 850px;
     margin: 50px auto;
    
 }
@@ -287,17 +287,21 @@ background-color: white;
     
 }
 .sec1 img{
+    width: 290px;
+    height: 180px;
+    margin:  5px 0 0 5px;
     border-radius: 10px;
-    width: 250px;
-    margin: 10px 23px;
 }
 .sec1 h3{
-    
+    width: 300px;
+    height: 50px;
     padding: 5px;
 }
 .sec1 p{
+    width: 300px;
+    height: 140px;
+    font-size: 15px;
     text-align: justify;
-    margin: 15px 5px;
     line-height: 25px;
 }
 .button2 {
@@ -323,7 +327,7 @@ background-color: white;
     list-style: none;
     font-weight: bold;
     padding: 7px 0 0 22px;
-    font-size: 18px;
+    font-size: 16px;
     background: url(../images/errowpng.png) no-repeat 1px 10px ;
 }
 .button2 button:hover{
@@ -338,6 +342,36 @@ transition: all 2s ease-in-out 0s;
     transform: scale(1.1);
 transition: all 1s ease-in-out 0s;
 } */
+
+
+.sec2 img{
+
+    width: 290px;
+    height: 180px;
+    margin:  5px 0 0 5px;
+    border-radius: 10px;
+}
+.sec2{
+    border-radius: 10px;
+    width: 300px;
+    height: 190px;
+background-color: white;
+    float: left;
+    margin: 10px 22px;
+    box-shadow: 1px 1px 8px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -412,17 +446,20 @@ footer{
  
 }
 .list ul li{
-    padding: 15px 20px;
+   
     float: left;
-    display: inline;
+    
 }
 .list ul li a{
+    display: inline;
+    float: left;
+    padding: 15.5px 20px;
     font-weight: bold;
     text-decoration: none;
 
 }
 .list ul li:hover {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(143, 202, 227);
     
 }
 
