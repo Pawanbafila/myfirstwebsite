@@ -298,11 +298,12 @@ background-color: white;
     padding: 5px;
 }
 .sec1 p{
-    width: 300px;
+    width: 290px;
     height: 140px;
     font-size: 15px;
     text-align: justify;
     line-height: 25px;
+    margin-left: 5px;
 }
 .button2 {
    width: 150px;
@@ -397,18 +398,32 @@ background-color: white;
    height: 100px; 
    margin: 0 44px;
 }
-.add1 img{
-    float: left;
-    width: 60px;
-    margin: 20px 10px;
-}
+
 address{
     color: white;
     padding: 20px 10px;
 }
+.add1 .img{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    float: left;
+    margin: 15px 10px;
+}
+.add1 .img img{
+    width: 50px;
+    margin: 14px 0 0 9px;
 
-
-
+}
+.add1 .img1 img{
+    width: 40px;
+    margin: 5px 0 0 14px;
+}
+.add1 .img2 img{
+    width: 60px;
+    margin: 3px 5px;
+}
 
 
 
