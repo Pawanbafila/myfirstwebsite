@@ -5,7 +5,9 @@
 
 }
 
-body, html{width: 100%;
+body,
+html {
+    width: 100%;
     height: 100%;
     background-color: rgb(106, 144, 168);
 }
@@ -29,6 +31,7 @@ header {
 }
 
 .logo {
+
     float: left;
     max-width: 13%;
     height: auto;
@@ -64,9 +67,10 @@ header {
     float: right;
     margin: 1.1% 8%;
 }
-.logos img:hover{
+
+.logos img:hover {
     transform: scale(1.1);
-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
 }
 
 
@@ -96,7 +100,7 @@ nav ul {
 }
 
 nav ul li {
-   list-style: none;
+    list-style: none;
     /* padding: 20.5px 20px; */
     position: relative;
     /* border-left: solid skyblue 1px; */
@@ -117,7 +121,7 @@ nav ul li:hover {
     background-color: skyblue;
 }
 
-nav ul li ul{
+nav ul li ul {
     z-index: 2;
     display: none;
     position: absolute;
@@ -125,9 +129,11 @@ nav ul li ul{
     left: 0;
 
 }
-nav ul li ul li a{
+
+nav ul li ul li a {
     border: none;
 }
+
 nav ul li:hover>ul {
     display: block;
 
@@ -153,7 +159,7 @@ nav ul li ul li a {
 
 }
 
-.active{
+.active {
     background-color: skyblue;
 }
 
@@ -175,14 +181,16 @@ nav ul li ul li a {
     filter: brightness(0.5);
 
 }
-.repair img{
-width: 100%;
+
+.repair img {
+    width: 100%;
     height: 480px;
     object-fit: cover;
 }
 
 
 .icon {
+    z-index: 2;
     position: fixed;
     width: 50px;
     height: auto;
@@ -201,9 +209,10 @@ width: 100%;
     padding: 7% 0;
     border: none;
 }
-.icon img:hover{
+
+.icon img:hover {
     transform: scale(1.5);
-transition: all 1s ease-in 0s;
+    transition: all 1s ease-in 0s;
 }
 
 
@@ -243,8 +252,9 @@ transition: all 1s ease-in 0s;
 
 
 }
-.section2 button:hover{
-    background-color:  rgb(197, 138, 253);
+
+.section2 button:hover {
+    background-color: rgb(197, 138, 253);
 
 }
 
@@ -258,46 +268,52 @@ transition: all 1s ease-in 0s;
  */
 
 .sir {
-   
+
     width: 1170px;
     height: 850px;
     margin: 50px auto;
-   
+
 }
 
-.sir h2{
-   
+.sir h2 {
+
     text-align: center;
     font-size: 40px;
-    color:  rgb(96, 12, 175);;
+    color: rgb(96, 12, 175);
+    ;
 }
-.seccent{
+
+.seccent {
     height: 100%;
     width: 90%;
     margin: 0 auto;
 
 }
-.sec1{
+
+.sec1 {
     border-radius: 10px;
     width: 300px;
     height: 550px;
-background-color: white;
+    background-color: white;
     float: left;
     margin: 20px 22px;
-    
+
 }
-.sec1 img{
+
+.sec1 img {
     width: 290px;
     height: 180px;
-    margin:  5px 0 0 5px;
+    margin: 5px 0 0 5px;
     border-radius: 10px;
 }
-.sec1 h3{
+
+.sec1 h3 {
     width: 300px;
     height: 50px;
     padding: 5px;
 }
-.sec1 p{
+
+.sec1 p {
     width: 290px;
     height: 140px;
     font-size: 15px;
@@ -305,11 +321,13 @@ background-color: white;
     line-height: 25px;
     margin-left: 5px;
 }
+
 .button2 {
-   width: 150px;
-   height: 30px;
-    
+    width: 150px;
+    height: 30px;
+
 }
+
 .button2 button {
     color: rgb(231, 231, 231);
     background-color: rgb(109, 9, 202);
@@ -318,23 +336,27 @@ background-color: white;
     border-radius: 10px;
     padding: 15px 25px;
 }
-.button2 ul{
+
+.button2 ul {
     float: left;
     margin: 0 0;
     padding: 0 0;
 }
-.secul ul li{
+
+.secul ul li {
     text-align: justify;
     list-style: none;
     font-weight: bold;
     padding: 7px 0 0 22px;
     font-size: 16px;
-    background: url(../images/errowpng.png) no-repeat 1px 10px ;
+    background: url(../images/errowpng.png) no-repeat 1px 10px;
 }
-.button2 button:hover{
-    background-color: rgb(153, 87, 214); 
+
+.button2 button:hover {
+    background-color: rgb(153, 87, 214);
 
 }
+
 /* .sec1 img:hover{
     transform: scale(1.1);
 transition: all 2s ease-in-out 0s;
@@ -345,18 +367,19 @@ transition: all 1s ease-in-out 0s;
 } */
 
 
-.sec2 img{
+.sec2 img {
 
     width: 290px;
     height: 180px;
-    margin:  5px 0 0 5px;
+    margin: 5px 0 0 5px;
     border-radius: 10px;
 }
-.sec2{
+
+.sec2 {
     border-radius: 10px;
     width: 300px;
     height: 190px;
-background-color: white;
+    background-color: white;
     float: left;
     margin: 10px 22px;
     box-shadow: 1px 1px 8px black;
@@ -382,28 +405,31 @@ background-color: white;
  */
 
 
-.footadd{
+.footadd {
     width: 100%;
     height: 100px;
     background-color: rgb(121, 121, 126);
 }
-.add{
+
+.add {
     width: 1170px;
     height: 100px;
     margin: 0 auto;
 }
-.add1{
-   float: left;
-   width: 300px;
-   height: 100px; 
-   margin: 0 44px;
+
+.add1 {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 0 44px;
 }
 
-address{
+address {
     color: white;
     padding: 20px 10px;
 }
-.add1 .img{
+
+.add1 .img {
     width: 70px;
     height: 70px;
     background-color: rgb(255, 255, 255);
@@ -411,16 +437,19 @@ address{
     float: left;
     margin: 15px 10px;
 }
-.add1 .img img{
+
+.add1 .img img {
     width: 50px;
     margin: 14px 0 0 9px;
 
 }
-.add1 .img1 img{
+
+.add1 .img1 img {
     width: 40px;
     margin: 5px 0 0 14px;
 }
-.add1 .img2 img{
+
+.add1 .img2 img {
     width: 60px;
     margin: 3px 5px;
 }
@@ -437,35 +466,38 @@ address{
 
 
 
-footer{
+footer {
     width: 100%;
     height: 50px;
     background-color: white;
 }
 
-.list{
+.list {
     width: 1170px;
     height: 50px;
     margin: 0 auto;
 }
-.list2{
+
+.list2 {
     float: left;
     width: 400px;
     height: 50px;
     margin: 1px 0 0 250px;
 }
 
-.list ul{
-  
+.list ul {
+
     list-style: none;
- 
+
 }
-.list ul li{
-   
+
+.list ul li {
+
     float: left;
-    
+
 }
-.list ul li a{
+
+.list ul li a {
     display: inline;
     float: left;
     padding: 15.5px 20px;
@@ -473,28 +505,32 @@ footer{
     text-decoration: none;
 
 }
+
 .list ul li:hover {
     background-color: rgb(143, 202, 227);
-    
+
 }
 
-.icon2{
+.icon2 {
     float: right;
     width: 250px;
     height: 50px;
     margin: 0 260px 0 0;
 }
-.icon2 img{
+
+.icon2 img {
     height: 25px;
     margin: 10px 10px;
-    
+
 }
-.icon2 img:hover{
+
+.icon2 img:hover {
     filter: drop-shadow(2px 2px 2px black);
 }
-.icon2 img:hover{
+
+.icon2 img:hover {
     transform: scale(1.1);
-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
 }
 
 
@@ -506,18 +542,539 @@ transition: all 1s ease-in-out 0s;
 /*
  * here our page last copright  start..........
  */
-.copyright{
+.copyright {
     width: 100%;
     height: 40px;
     background-color: black;
 }
-.cop{
+
+.cop {
     width: 1170px;
     height: 40px;
     margin: 0 auto;
 }
-.cop p{
+
+.cop p {
     color: white;
     font-weight: bold;
     padding: 10px 0;
+}
+
+
+
+
+
+
+
+/*
+ * here start about us part of website
+ */
+
+.about-us-banner {
+
+    width: 1170px;
+    height: 400px;
+    margin: 3px auto;
+    background-image: url(../images/renovation-repair-construction-design-website-concept.jpg);
+    background-size: cover;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.about-main h1 {
+    color: rgb(122, 57, 127);
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-size: 50px;
+    text-decoration: underline 10px;
+}
+
+.about-main {
+
+    width: 1170px;
+    height: 1450px;
+    margin: 0 auto;
+}
+
+.about-main p {
+    padding: 10px;
+    word-spacing: 5px;
+    line-height: 25px;
+    margin: 40px 0 50px 0;
+    font-size: 17px;
+    background-color: rgb(164, 195, 222);
+    border-radius: 20px;
+}
+
+.about-main .div-box {
+    float: left;
+    width: 560px;
+    height: 550px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(164, 195, 222);
+}
+
+.about-main .div-box2 {
+    float: left;
+    width: 560px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.div-box2 img {
+    margin: 65px 0 0 0;
+    width: 560px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.div-box p,
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.div-box h2 {
+    color: rgb(122, 57, 127);
+    font-size: 30px;
+    margin: 10px 0 20px 0;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*
+ * Here form work start of footer
+ */
+
+
+.form {
+    width: 1170px;
+    height: 270px;
+    background-color: rgb(0, 102, 142);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.form .div-h2 h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.form .form-box {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.form .form-box1 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.form .form-box input,
+select {
+    margin: 10px 0 0 60px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.form .form-box1 input {
+    margin: 10px 0 0 60px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * here start service part 
+ */
+
+.Service {
+    z-index: 1;
+    position: relative;
+    border: solid white;
+    width: 100%;
+    min-height: 600px;
+    margin: 3px auto;
+    background-image: url(../images/male-technician-repairing-computer-circuit-board.jpg);
+    background-size: cover;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+/*
+ * here start our banner form part
+ */
+.Service h2 {
+    background-color: rgba(158, 156, 156, 0.311);
+    backdrop-filter: blur(5px);
+    color: rgb(48, 38, 110);
+    font-size: 30px;
+    float: left;
+    width: 650px;
+    height: 100px;
+    text-align: left;
+    margin: 50px 0 0 150px;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+    line-height: 35px;
+    padding: 10px;
+
+}
+.Service p {
+    background-color: rgba(158, 156, 156, 0.311);
+    backdrop-filter: blur(5px);
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 650px;
+    height: 240px;
+    text-align: left;
+    margin: 30px 0 0 150px;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+    line-height: 30px;
+    padding: 10px;
+
+}
+.Service ul {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(158, 156, 156, 0.311);
+    backdrop-filter: blur(5px);
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 650px;
+    height: 150px;
+    text-align: left;
+    margin: 10px 0 0 150px;
+    word-spacing: 1px;
+    line-height: 35px;
+    padding: 0px 0px 0 40px;
+    
+
+}
+
+
+
+.banner-form {
+    position: absolute;
+    background-color: rgba(202, 191, 191, 0.311);
+    backdrop-filter: blur(5px);
+    border: solid white;
+    width: 320px;
+    height: 520px;
+    float: left;
+    border-radius: 10px;
+    right: 150px;
+    top: 50px;
+
+}
+
+.banner-form h3 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 90px;
+    margin: 50px 0 0 30px;
+}
+
+.banner-form .banner-form-under {
+    width: 280px;
+    height: 450px;
+    margin: 0px 0px 0 22px;
+}
+
+.banner-form .banner-form-under input {
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.banner-form .banner-form-under select {
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: rgb(114, 114, 114);
+    font-size: 13px;
+}
+
+.banner-form .banner-form-under .submit{ 
+background-color: rgb(14, 91, 191);
+color: white; 
+font-weight: bold;
+font-size: 17px;
+}
+.banner-form .banner-form-under .submit:hover{
+    background-color: rgb(9, 165, 255);
+}
+
+
+
+
+
+
+
+
+
+
+.service-main {
+    background-color: rgb(31, 96, 122);
+
+    border-radius: 15px;
+    width: 1170px;
+    height: 1250px;
+    margin: 70px auto;
+
+}
+
+.service-main p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    word-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.service-main h1 {
+    font-family: "Poppins", sans-serif;
+    padding: 40px 0 0 0;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.service-main .line {
+    width: 100%;
+    height: 10px;
+    margin: 5px auto;
+
+}
+
+.service-main .line hr {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin: 20px 0 0 500px;
+    border-radius: 5px;
+}
+
+
+
+.divt {
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.divt h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 10px;
+    color: white;
+}
+
+.div-box1 {
+    float: left;
+    width: 300px;
+    min-height: 400px;
+    height: auto;
+    border: solid rgb(153, 153, 153);
+    margin: 60px 0 0 65px;
+    border-radius: 10px;
+    background-color: rgb(124, 174, 195);
+}
+
+.div-box1 .circle {
+    border: white solid;
+    background-image: url(../images/services-repair-img.svg);
+    margin: 10px auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+.div-box1 .circle img{
+   height: 100%;
+   weight: 100%;
+}
+
+.div-box1 h3 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.div-box1 p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+/*
+ * here start our second main
+ */
+
+ .service-main2 {
+    background-color: rgb(31, 96, 122);
+
+    border-radius: 15px;
+    width: 1170px;
+    height: 1550px;
+    margin: 70px auto;
+
+}
+
+.service-main2 p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    word-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.service-main2 h1 {
+    font-family: "Poppins", sans-serif;
+    padding: 40px 0 0 0;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.service-main2 .line {
+    width: 100%;
+    height: 10px;
+    margin: 5px auto;
+
+}
+
+.service-main2 .line hr {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin: 20px 0 0 500px;
+    border-radius: 5px;
+}
+
+
+
+.divt {
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.divt h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 10px;
+    color: white;
+}
+
+.div-box3 {
+    float: left;
+    width: 300px;
+    min-height: 400px;
+    height: auto;
+    border: solid rgb(153, 153, 153);
+    margin: 60px 0 0 65px;
+    border-radius: 10px;
+    background-color: rgb(124, 174, 195);
+}
+
+.div-box3 .circle {
+    float: left;
+    border: white solid;
+    background-image: url(../images/services-repair-img.svg);
+    margin: 10px 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+.div-box3 .circle img{
+   height: 100%;
+   weight: 100%;
+}
+
+.div-box3 h3 {
+    width: 150px;
+    height: auto;
+    float: right;
+    font-family: "Poppins", sans-serif;
+    margin: 40px 0;
+
+
+}
+
+.div-box3 p {
+    float: left;
+    width:280px;
+    height: 300px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 0 9px;
+
 }
