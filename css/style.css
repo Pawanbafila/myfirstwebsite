@@ -1,15 +1,19 @@
+/* Reset CSS */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
+
 
 body,
 html {
     width: 100%;
     height: 100%;
-    background-color: rgb(106, 144, 168);
+    background-color: rgb(129, 198, 255);
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /*
@@ -20,13 +24,13 @@ header {
     border-bottom: 3px solid rgb(0, 238, 255);
     width: 100%;
     height: 60px;
-    background-color: rgb(106, 144, 168);
+    background-color:  rgb(129, 198, 255);
 }
 
 .header-wraper {
     width: 1170px;
     height: 60px;
-    background-color: rgb(31, 96, 122);
+    background-color: rgb(1, 123, 171);
     margin: 0 auto;
 }
 
@@ -86,7 +90,7 @@ header {
 
 nav {
 
-    width: 35%;
+    width: 48%;
     height: 60px;
     float: right;
 }
@@ -174,19 +178,32 @@ nav ul li ul li a {
 .repair {
     border-radius: 10px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
     margin: 1px auto;
     width: 100%;
     height: 480px;
-    filter: brightness(0.5);
+    background-image: url(/Computer-repair-delhi/images/techrepairbanner.jpg);
+    background-position-y: -100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.5); */
 
 }
+.repair .button{
+    width: 200px; height: 45px; border-radius: 20px; background-color: orangered; color: white; font-size: 20px; border: none; position: absolute; right: 350px; bottom: 60px; z-index: 2;
+    
+}
+.repair .button:hover{
+    background-color: rgb(167, 71, 36);
+}
 
-.repair img {
+
+/* .repair img {
     width: 100%;
     height: 480px;
     object-fit: cover;
-}
+    
+} */
 
 
 .icon {
@@ -226,8 +243,11 @@ nav ul li ul li a {
 
 .section2 h1 {
     text-align: center;
-    color: rgb(81, 0, 157);
-    padding: 30px 0;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    margin: 50px 0 30px 0;
+    background-color: #FF446D;
+    border-radius: 10px;
 }
 
 .section2 p {
@@ -408,7 +428,7 @@ transition: all 1s ease-in-out 0s;
 .footadd {
     width: 100%;
     height: 100px;
-    background-color: rgb(121, 121, 126);
+    background-color: rgb(128, 128, 255);
 }
 
 .add {
@@ -572,7 +592,7 @@ footer {
 
 .about-us-banner {
 
-    width: 1170px;
+    width: 100%;
     height: 400px;
     margin: 3px auto;
     background-image: url(../images/renovation-repair-construction-design-website-concept.jpg);
@@ -589,6 +609,8 @@ footer {
     margin: 50px 0 20px 0;
     font-size: 50px;
     text-decoration: underline 10px;
+    background-color: #C9E4C2;
+    padding: 10px;
 }
 
 .about-main {
@@ -756,6 +778,7 @@ select {
     padding: 10px;
 
 }
+
 .Service p {
     background-color: rgba(158, 156, 156, 0.311);
     backdrop-filter: blur(5px);
@@ -771,6 +794,7 @@ select {
     padding: 10px;
 
 }
+
 .Service ul {
     font-weight: bold;
     font-size: 20px;
@@ -785,10 +809,9 @@ select {
     word-spacing: 1px;
     line-height: 35px;
     padding: 0px 0px 0 40px;
-    
+
 
 }
-
 
 
 .banner-form {
@@ -802,6 +825,8 @@ select {
     border-radius: 10px;
     right: 150px;
     top: 50px;
+    box-shadow: 2px 2px 20px 2px  black;
+    
 
 }
 
@@ -826,7 +851,9 @@ select {
     border-radius: 5px;
     border: none;
     padding: 10px;
+    outline: none;
 }
+
 .banner-form .banner-form-under select {
     height: 40px;
     width: 250px;
@@ -838,13 +865,14 @@ select {
     font-size: 13px;
 }
 
-.banner-form .banner-form-under .submit{ 
-background-color: rgb(14, 91, 191);
-color: white; 
-font-weight: bold;
-font-size: 17px;
+.banner-form .banner-form-under .submit {
+    background-color: rgb(14, 91, 191);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
 }
-.banner-form .banner-form-under .submit:hover{
+
+.banner-form .banner-form-under .submit:hover {
     background-color: rgb(9, 165, 255);
 }
 
@@ -858,7 +886,7 @@ font-size: 17px;
 
 
 .service-main {
-    background-color: rgb(31, 96, 122);
+    background-color: rgb(46, 150, 192);
 
     border-radius: 15px;
     width: 1170px;
@@ -921,10 +949,10 @@ font-size: 17px;
     width: 300px;
     min-height: 400px;
     height: auto;
-    border: solid rgb(153, 153, 153);
+    border: solid rgb(251, 251, 251);
     margin: 60px 0 0 65px;
     border-radius: 10px;
-    background-color: rgb(124, 174, 195);
+    background-color: rgba(255, 255, 255, 0.421);
 }
 
 .div-box1 .circle {
@@ -941,9 +969,9 @@ font-size: 17px;
 
 
 
-.div-box1 .circle img{
-   height: 100%;
-   weight: 100%;
+.div-box1 .circle img {
+    height: 100%;
+    width: 100%;
 }
 
 .div-box1 h3 {
@@ -969,12 +997,12 @@ font-size: 17px;
  * here start our second main
  */
 
- .service-main2 {
-    background-color: rgb(31, 96, 122);
+.service-main2 {
+    background-color: rgb(46, 150, 192);
 
     border-radius: 15px;
     width: 1170px;
-    height: 1550px;
+    height: 1350px;
     margin: 70px auto;
 
 }
@@ -988,6 +1016,7 @@ font-size: 17px;
 }
 
 .service-main2 h1 {
+
     font-family: "Poppins", sans-serif;
     padding: 40px 0 0 0;
     color: white;
@@ -1031,12 +1060,12 @@ font-size: 17px;
 .div-box3 {
     float: left;
     width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     height: auto;
-    border: solid rgb(153, 153, 153);
+    border: solid rgb(255, 255, 255);
     margin: 60px 0 0 65px;
     border-radius: 10px;
-    background-color: rgb(124, 174, 195);
+    background-color: rgba(255, 255, 255, 0.421);
 }
 
 .div-box3 .circle {
@@ -1054,12 +1083,13 @@ font-size: 17px;
 
 
 
-.div-box3 .circle img{
-   height: 100%;
-   weight: 100%;
+.div-box3 .circle img {
+    height: 100%;
+    width: 100%;
 }
 
 .div-box3 h3 {
+
     width: 150px;
     height: auto;
     float: right;
@@ -1071,10 +1101,320 @@ font-size: 17px;
 
 .div-box3 p {
     float: left;
-    width:280px;
-    height: 300px;
+    width: 280px;
+    height: 200px;
     font-family: "Poppins", sans-serif;
     text-align: center;
     margin: 0 9px;
 
+}
+
+
+
+
+
+
+/******************************************************************
+ * here start our contact page part 
+ *******************************************************************/
+
+
+
+.contact-banner {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url(../images/dolls-computer-motherboard.jpg);
+    background-position-y: -300px;
+    background-position-x: ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 3px 0 80px 0;
+
+}
+
+.contact-main {
+    width: 1170px;
+    height: 900px;
+    margin: 10px auto;
+
+}
+
+.whatget {
+
+    width: 1170px;
+    min-height: 200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.contact-box {
+
+    width: 100%;
+    height: 130px;
+
+}
+
+.contact-box .box1 {
+    border-radius: 15px;
+    border: solid rgb(202, 200, 200);
+    float: left;
+    width: 350px;
+    height: 100px;
+    margin: 10px 0 0 30px;
+    background-color: rgba(255, 255, 255, 0.408);
+    backdrop-filter: blur(5px);
+}
+
+.contact-box .box1 img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin: 5px 10px 0 5px;
+
+
+}
+
+.contact-box .box1 p {
+    margin: 25px 0px;
+    width: 240px;
+    height: 50px;
+    float: right;
+    font-weight: bold;
+}
+
+.whatget h2 {
+    color: white;
+    font-size: 30px;
+   text-align: center;
+   padding: 20px 0 0 0;
+   margin: 0 0 50px 0;
+}
+
+.whatget .cpform {
+    margin: 100px 0 0 0;
+    width: 100%;
+    height: 450px;
+}
+
+.whatget .cpform .cpform1 {
+    float: left;
+    width: 450px;
+    height: 400px;
+   background-color: rgba(255, 255, 255, 0.292);
+    margin: 15px 0 0 33px;
+    border-radius: 10px;
+    border: solid rgba(255, 255, 255, 0.485);
+}
+.whatget .cpform .cpform1 h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0 20px 20px;
+}
+.whatget .cpform .cpform1 p{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 20px;
+}
+.whatget .cpform .cpform1 h4{
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.whatget .cpform .cpform2 {
+    float: left;
+    width: 600px;
+    height: 460px;
+    margin: 10px;
+    padding: 0 0 0 0px;
+    margin: 15px 0 0 50px;
+   
+    
+}
+
+.whatget .cpform .cpform2 input {
+    float: left;
+    height: 50px;
+    width: 96.5%;
+    margin: 10px 0px 10px 21px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.whatget .cpform .cpform2 textarea {
+    float: left;
+    height: 160px;
+    width: 96.5%;
+    margin: 10px 0px 10px 21px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+}
+
+.cpicon{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************************************
+* Here start our Blog Page Part 
+*******************************************************************/
+
+
+
+.blogbanner{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.blogbanner h1{
+    color: white;
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+
+
+
+.toptag
+{
+    margin: 2px 0 0 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.taglist{
+    background-color: rgb(0, 65, 109);
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.toptag .taglist a{
+    height: 100%;
+    float: left;
+    color: white;
+    border-left: solid 2px;
+    text-decoration: none;
+    padding: 15px 15px 0 15px;
+
+}
+.toptag .taglist a:hover{
+    background-color: skyblue;
+}
+
+.blog-main{
+    width: 1170px;
+    min-height: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.blog-main .left-side{
+    width: 400px;
+    min-height: 800px;
+    height: auto;
+    float: left;
+}
+
+.blog-main .left-side .mustread{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    float: left;
+}
+
+.blog-main .left-side .mustread h3{
+   text-align: left;
+   font-size: 25px;
+   margin-top: 30px;
+   margin-bottom: 15px;
+   margin-left: 10px;
+   /* border: white solid;
+   padding: 10px;
+   border-radius: 10px; */
+  
+}
+
+.blog-main .left-side .mustread .mrbox1{
+    width: 100%;
+    height: 110px;
+   background-color: rgba(255, 255, 255, 0.36);
+    margin: 7px 0 0 0px;
+    border-radius: 10px;
+    border: #ffffffb4 solid;
+}
+
+.blog-main .left-side .mustread .mrbox1 img{
+   width: 80px;
+   height: 80px;
+   background-color: black;
+   float: left;
+   margin: 17px 10px 0 5px;
+
+}
+.blog-main .left-side .mustread .mrbox1 a{
+   margin: 10px 0 0 0;
+   text-decoration: none;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   padding: 3px 5px;
+   font-size: 13px;
+   float: left;
+ 
+ }
+ .blog-main .left-side .mustread .mrbox1 a:hover{
+    color: rgb(135, 207, 235);
+    background-color: black;
+ }
+
+
+.blog-main .left-side .mustread .mrbox1 h4{
+   margin: 10px 0 0 0;
+ 
+ }
+.blog-main .left-side .mustread .mrbox1 p{
+   margin: 5px 0 0 0;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-main .right-side{
+    width: 750px;
+    min-height: 800px;
+    height: auto;
+    border: solid;
+    float: right;
 }
