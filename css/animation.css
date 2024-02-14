@@ -1,0 +1,456 @@
+@media screen and (max-width: 560px) {
+
+
+    /*
+ * this is start of header part of this website
+ */
+    header {
+        border-top: 2px solid rgb(0, 238, 255);
+        border-bottom: 3px solid rgb(0, 238, 255);
+        width: 100%;
+        height: 60px;
+        background-color: rgb(129, 198, 255);
+    }
+
+    .header-wraper {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(1, 123, 171);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .logo {
+
+        float: left;
+        max-width: 13%;
+
+
+        height: 100%;
+        background-color: pink;
+    }
+
+    .logo img {
+        margin: 0;
+        width: 65%;
+        margin: 10px;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    /*
+ * here the logos of 2nd group of three imgaes
+ */
+
+    .logos {
+        float: left;
+        width: 35%;
+        height: 60px;
+    }
+
+    .logos img {
+        filter: drop-shadow(2px 1px 5px skyblue);
+        width: 18%;
+        float: right;
+        margin: 1.1% 8%;
+    }
+
+    .logos img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease-in-out 0s;
+    }
+
+
+    /*
+ * here end
+ */
+
+
+
+    /*
+  * here nav bars work start 
+  */
+
+    .baricon i {
+        font-size: 25px;
+        margin: 15px 20px;
+        float: right;
+        font-weight: bold;
+        color: white;
+        display: none;
+    }
+
+
+    nav {
+
+        width: 48%;
+        height: 60px;
+        float: right;
+        display: none;
+    }
+
+
+    .header-wraper i {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .section2 {
+
+        margin: 0 auto;
+        width: 99%;
+        height: 1000px;
+    }
+
+    .section2 h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 20px 0;
+        margin: 50px 0 30px 0;
+        background-color: #FF446D;
+        border-radius: 10px;
+    }
+
+    .section2 p {
+        text-align: left;
+        line-height: 25px;
+        word-spacing: 2px;
+    }
+
+    .button1 {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+
+    .section2 button {
+        color: white;
+        background-color: rgb(153, 87, 214);
+        ;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 25px;
+
+
+    }
+
+    .section2 button:hover {
+        background-color: rgb(197, 138, 253);
+
+    }
+
+
+
+
+
+
+    /*
+ * here our services part start
+ */
+
+    .sir {
+
+
+        width: 99%;
+        min-height: 3400px;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    .sir h2 {
+
+        text-align: center;
+        font-size: 40px;
+        color: rgb(96, 12, 175);
+        ;
+    }
+
+    .seccent {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .sec1 {
+        border-radius: 10px;
+        width: 100%;
+        height: 750px;
+        background-color: white;
+        float: left;
+        margin: 20px auto;
+
+    }
+
+    .sec1 img {
+        width: 90%;
+        height: 50%;
+        margin: 5px 25px;
+        border-radius: 10px;
+    }
+
+    .sec1 h3 {
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    .sec1 p {
+        width: 290px;
+        height: 140px;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 25px;
+        margin-left: 5px;
+    }
+
+    .button2 {
+        width: 150px;
+        height: 30px;
+
+    }
+
+    .button2 button {
+        color: rgb(231, 231, 231);
+        background-color: rgb(109, 9, 202);
+        margin: 30px 10px;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 25px;
+    }
+
+    .button2 ul {
+        float: left;
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    .secul ul li {
+        text-align: justify;
+        list-style: none;
+        font-weight: bold;
+        padding: 7px 0 0 22px;
+        font-size: 16px;
+        background: url(../images/errowpng.png) no-repeat 1px 10px;
+    }
+
+    .button2 button:hover {
+        background-color: rgb(153, 87, 214);
+
+    }
+
+    /* .sec1 img:hover{
+    transform: scale(1.1);
+transition: all 2s ease-in-out 0s;
+}
+.sec1:hover{
+    transform: scale(1.1);
+transition: all 1s ease-in-out 0s;
+} */
+
+
+    .sec2 img {
+
+        width: 90%;
+        height: 50%;
+        margin: 5px 19px;
+        border-radius: 10px;
+    }
+
+    .sec2 {
+        border-radius: 10px;
+        width: 90%;
+        height: 50%;
+        background-color: white;
+        float: left;
+        margin: 10px 22px;
+        box-shadow: 1px 1px 8px black;
+    }
+
+
+
+
+
+
+
+
+
+    .footadd {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(128, 128, 255);
+    }
+
+    .add {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .add1 {
+
+        background-color: red;
+        width: 100%;
+        height: 100px;
+        margin: 0 0px;
+    }
+
+    address {
+        margin: 15px 0;
+        width: 75%;
+        float: right;
+        color: white;
+
+    }
+
+    .add1 .img {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        float: left;
+        margin: 10px 5px;
+    }
+
+    .add1 .img img {
+        width: 40px;
+        margin: 14px 0 0 9px;
+
+    }
+
+    .add1 .img1 img {
+        width: 30px;
+        margin: 5px 0 0 14px;
+    }
+
+    .add1 .img2 img {
+        width: 40px;
+        margin: 10px 10px;
+    }
+
+
+
+
+
+
+    /*
+ * here last footer copyright div start
+ */
+
+
+
+    footer {
+        
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+
+    .list {
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    .list2 {
+  
+  margin: 0 0;
+        width: 100%;
+        height: 50px;
+        padding: 0 50px;
+
+    }
+
+    .list ul {
+
+        list-style: none;
+
+    }
+
+    .list ul li {
+
+        float: left;
+
+    }
+
+    .list ul li a {
+        display: inline;
+        float: left;
+        padding: 15.5px 20px;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+
+    .list ul li:hover {
+        background-color: rgb(143, 202, 227);
+
+    }
+
+    .icon2 {
+        background-color: rebeccapurple;
+        float: left;
+        width: 100%;
+        height: 50px;
+      padding: 0 130px;
+    }
+
+    .icon2 img {
+        height: 25px;
+        margin: 10px 10px;
+
+    }
+
+    .icon2 img:hover {
+        filter: drop-shadow(2px 2px 2px black);
+    }
+
+    .icon2 img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease-in-out 0s;
+    }
+
+
+
+/*
+ * here our page last copright  start..........
+ */
+ .copyright {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.cop {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.cop p {
+    color: white;
+    font-weight: bold;
+    padding: 5px 0 5px 120px;
+}
+
+
+
+
+
+
+
+}

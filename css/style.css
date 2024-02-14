@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+.logos a .twenty{
+    width: 12%;
+}
 
 body,
 html {
@@ -12,7 +15,8 @@ html {
     height: 100%;
     background-color: rgb(129, 198, 255);
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -24,7 +28,7 @@ header {
     border-bottom: 3px solid rgb(0, 238, 255);
     width: 100%;
     height: 60px;
-    background-color:  rgb(129, 198, 255);
+    background-color: rgb(129, 198, 255);
 }
 
 .header-wraper {
@@ -32,6 +36,7 @@ header {
     height: 60px;
     background-color: rgb(1, 123, 171);
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -88,6 +93,16 @@ header {
   * here nav bars work start 
   */
 
+.baricon i{
+    font-size: 25px;
+    margin: 15px 20px;
+    float: right;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
+
+
 nav {
 
     width: 48%;
@@ -115,13 +130,13 @@ nav ul li a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    padding: 22px 20px;
+    padding: 20.7px 20px;
     margin: 0px 0px;
     float: left;
     border-left: 1px solid #999;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     background-color: skyblue;
 }
 
@@ -134,34 +149,38 @@ nav ul li ul {
 
 }
 
-nav ul li ul li a {
+nav ul li ul li {
     border: none;
+    
 }
 
 nav ul li:hover>ul {
     display: block;
+  
 
 }
 
-nav ul li ul li {
+nav ul li ul li a {
     border-radius: 5px;
     width: 100px;
     height: 50px;
     border: none;
-    margin: 5px 0;
     background-color: skyblue;
+    position: relative;
+    top: 0;
+    left: -10px;
+    margin: 0 0 5px 0 ;
+    animation-name: upar;
+
+    
 }
 
-nav ul li ul li:hover {
-    background-color: rgb(0, 81, 112);
+nav ul li ul li a:hover {transform: scale(1.1);
+    transition: all .5s ease-in-out 0s;
+    
+    background-color: rgb(2, 122, 169);
 }
 
-nav ul li ul li a {
-    color: rgb(255, 255, 255);
-    margin: 5px 10px;
-    text-align: center;
-
-}
 
 .active {
     background-color: skyblue;
@@ -169,41 +188,51 @@ nav ul li ul li a {
 
 
 /*
- * here start page main big image work
+ * here start page banner image work
  */
 
 
 
 
-.repair {
+.repair {  
     border-radius: 10px;
     position: relative;
     z-index: 1;
     margin: 1px auto;
     width: 100%;
     height: 480px;
-    background-image: url(/Computer-repair-delhi/images/techrepairbanner.jpg);
-    background-position-y: -100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* filter: brightness(0.5); */
+   
 
 }
-.repair .button{
-    width: 200px; height: 45px; border-radius: 20px; background-color: orangered; color: white; font-size: 20px; border: none; position: absolute; right: 350px; bottom: 60px; z-index: 2;
-    
-}
-.repair .button:hover{
-    background-color: rgb(167, 71, 36);
-}
 
+/* .repair .button {
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    border: none;
+    position: absolute;
+    right: 350px;
+    bottom: 60px;
+    z-index: 2;
 
-/* .repair img {
-    width: 100%;
-    height: 480px;
-    object-fit: cover;
-    
 } */
+/* 
+.repair .button:hover {
+    background-color: rgb(167, 71, 36);
+} */
+
+
+.repair img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+}
 
 
 .icon {
@@ -433,11 +462,12 @@ transition: all 1s ease-in-out 0s;
 
 .add {
     width: 1170px;
-    height: 100px;
+    height: 100%;
     margin: 0 auto;
 }
 
 .add1 {
+
     float: left;
     width: 300px;
     height: 100px;
@@ -445,33 +475,36 @@ transition: all 1s ease-in-out 0s;
 }
 
 address {
+margin: 15px 0;
+    width: 75%;
+    float: right;
     color: white;
-    padding: 20px 10px;
+   
 }
 
 .add1 .img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     float: left;
-    margin: 15px 10px;
+    margin: 10px 5px;
 }
 
 .add1 .img img {
-    width: 50px;
+    width: 40px;
     margin: 14px 0 0 9px;
 
 }
 
 .add1 .img1 img {
-    width: 40px;
+    width: 30px;
     margin: 5px 0 0 14px;
 }
 
 .add1 .img2 img {
-    width: 60px;
-    margin: 3px 5px;
+    width: 40px;
+    margin: 10px 10px;
 }
 
 
@@ -825,8 +858,8 @@ select {
     border-radius: 10px;
     right: 150px;
     top: 50px;
-    box-shadow: 2px 2px 20px 2px  black;
-    
+    box-shadow: 2px 2px 20px 2px black;
+
 
 }
 
@@ -1088,12 +1121,19 @@ select {
     width: 100%;
 }
 
-.div-box3 h3 {
+.blogheading {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
 
+.div-box3 .blogheading h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     width: 150px;
     height: auto;
     float: right;
-    font-family: "Poppins", sans-serif;
     margin: 40px 0;
 
 
@@ -1186,9 +1226,9 @@ select {
 .whatget h2 {
     color: white;
     font-size: 30px;
-   text-align: center;
-   padding: 20px 0 0 0;
-   margin: 0 0 50px 0;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 0 0 50px 0;
 }
 
 .whatget .cpform {
@@ -1201,23 +1241,26 @@ select {
     float: left;
     width: 450px;
     height: 400px;
-   background-color: rgba(255, 255, 255, 0.292);
+    background-color: rgba(255, 255, 255, 0.292);
     margin: 15px 0 0 33px;
     border-radius: 10px;
     border: solid rgba(255, 255, 255, 0.485);
 }
-.whatget .cpform .cpform1 h3{
+
+.whatget .cpform .cpform1 h3 {
     font-size: 25px;
     font-weight: bold;
     text-align: left;
     margin: 20px 0 20px 20px;
 }
-.whatget .cpform .cpform1 p{
+
+.whatget .cpform .cpform1 p {
     float: left;
     width: 100%;
     margin: 0 0 0 20px;
 }
-.whatget .cpform .cpform1 h4{
+
+.whatget .cpform .cpform1 h4 {
     float: left;
     width: 100%;
     font-size: 18px;
@@ -1237,8 +1280,8 @@ select {
     margin: 10px;
     padding: 0 0 0 0px;
     margin: 15px 0 0 50px;
-   
-    
+
+
 }
 
 .whatget .cpform .cpform2 input {
@@ -1265,7 +1308,7 @@ select {
 
 }
 
-.cpicon{
+.cpicon {
     margin: 10px;
 }
 
@@ -1284,137 +1327,254 @@ select {
 
 
 
-.blogbanner{
+.blogbanner {
+    float: left;
     width: 100%;
     height: 400px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    margin: 0 0;
 }
-.blogbanner h1{
+
+.blogbanner .blogheading h1 {
     color: white;
-    padding: 150px 0 0 0;
+    margin: 10px auto;
+    padding: 30px 0;
     text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    
 }
 
 
 
-.toptag
-{
+
+.blogbanner p {
+    color: white;
+    padding: 0px 0 0px 0;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.blogbanner .bbpara {
+    width: 100%;
+    margin: 0 auto;
+    height: 13%;
+
+}
+
+.blogbanner .bbpara a {
+    display: inline-block;
+    color: white;
+    padding: 11px 11px;
+    margin: 20px 0 0 525px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    border: solid white;
+}
+
+
+
+.blogbanner .bbpara a:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: solid rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+.toptag {
     margin: 2px 0 0 0;
     height: 50px;
     width: 100%;
     background-color: white;
 }
-.taglist{
+
+.taglist {
     background-color: rgb(0, 65, 109);
     width: 1170px;
     height: 100%;
     margin: 0 auto;
 }
-.toptag .taglist a{
+
+.toptag .taglist a {
+    width: 150px;
     height: 100%;
+    text-align: center;
     float: left;
     color: white;
     border-left: solid 2px;
     text-decoration: none;
     padding: 15px 15px 0 15px;
+    font-size: 15px;
 
 }
-.toptag .taglist a:hover{
+
+.toptag .taglist a:hover {
     background-color: skyblue;
 }
 
-.blog-main{
+.blog-main {
     width: 1170px;
-    min-height: 1200px;
+    min-height: 2000px;
     height: auto;
     margin: 0 auto;
 
 }
 
-.blog-main .left-side{
+.blog-main .left-side {
     width: 400px;
     min-height: 800px;
     height: auto;
     float: left;
 }
 
-.blog-main .left-side .mustread{
+.blog-main .left-side .mustread {
     width: 100%;
     min-height: 500px;
     height: auto;
     float: left;
 }
 
-.blog-main .left-side .mustread h3{
-   text-align: left;
-   font-size: 25px;
-   margin-top: 30px;
-   margin-bottom: 15px;
-   margin-left: 10px;
-   /* border: white solid;
+.blog-main .left-side .mustread h3 {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    /* border: white solid;
    padding: 10px;
    border-radius: 10px; */
-  
+
 }
 
-.blog-main .left-side .mustread .mrbox1{
+.blog-main .left-side .mustread .mrbox1 {
     width: 100%;
     height: 110px;
-   background-color: rgba(255, 255, 255, 0.36);
+    background-color: rgba(255, 255, 255, 0.36);
     margin: 7px 0 0 0px;
     border-radius: 10px;
     border: #ffffffb4 solid;
 }
 
-.blog-main .left-side .mustread .mrbox1 img{
-   width: 80px;
-   height: 80px;
-   background-color: black;
-   float: left;
-   margin: 17px 10px 0 5px;
+.blog-main .left-side .mustread .mrbox1 img {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    float: left;
+    margin: 17px 10px 0 5px;
 
 }
-.blog-main .left-side .mustread .mrbox1 a{
-   margin: 10px 0 0 0;
-   text-decoration: none;
-   background-color: rgb(255, 255, 255);
-   border-radius: 5px;
-   padding: 3px 5px;
-   font-size: 13px;
-   float: left;
- 
- }
- .blog-main .left-side .mustread .mrbox1 a:hover{
+
+.blog-main .left-side .mustread .mrbox1 a {
+    margin: 10px 0 0 0;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 13px;
+    float: left;
+
+}
+
+.blog-main .left-side .mustread .mrbox1 a:hover {
     color: rgb(135, 207, 235);
     background-color: black;
- }
+}
 
 
-.blog-main .left-side .mustread .mrbox1 h4{
-   margin: 10px 0 0 0;
- 
- }
-.blog-main .left-side .mustread .mrbox1 p{
-   margin: 5px 0 0 0;
- 
- }
+.blog-main .left-side .mustread .mrbox1 h4 {
+    margin: 10px 0 0 0;
 
+}
 
+.blog-main .left-side .mustread .mrbox1 p {
+    margin: 5px 0 0 0;
 
-
-
-
-
+}
+.left-side .ytvideo iframe{
+    margin: 30px 0;
+}
 
 
 
 
 
 
-.blog-main .right-side{
+
+
+
+
+
+
+
+.blog-main .right-side {
     width: 750px;
-    min-height: 800px;
+    min-height: 1400px;
     height: auto;
-    border: solid;
+   
     float: right;
+}
+.blog-main .right-side .right-side-first{
+    width: 700px ;
+    height: 730px ;
+float: right;
+margin: 30px 0 0 0;
+background-color: rgba(255, 255, 255, 0.36);
+padding: 15px 22px;
+}
+.blog-main .right-side .right-side-first h2{
+    float: left;
+ font-size: 30px;
+ line-height: 35px;
+ text-align: left;
+
+
+}
+.blog-main .right-side .right-side-first .poet p{
+float: left;
+text-align: left;
+margin: 7px 5px;
+font-weight: bold;
+
+
+}
+.blog-main .right-side .right-side-first i{
+float: left;
+text-align: left;
+font-size: 30px;
+
+}
+
+.article-banner img{
+    width: 650px;
+   margin: 10px 0;
+}
+.right-side-first a{
+    margin: 10px 0 0 0;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.right-side-first a:hover {
+    color: rgb(135, 207, 235);
+    background-color: black;
 }
